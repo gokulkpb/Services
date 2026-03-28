@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using UserService.DbContext1;
 using UserService.Middleware;
 using UserService.Repositories;
+using UserService.Security;
 using UserService.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,8 +14,12 @@ builder.Services.AddControllers();
 //builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+
 builder.Services.AddDbContext<UserDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("UserDb")));
 var app = builder.Build();

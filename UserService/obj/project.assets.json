@@ -3575,11 +3575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GOKUL\\source\\repos\\UserService\\UserService.csproj",
+      "projectUniqueName": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "C:\\Users\\GOKUL\\source\\repos\\UserService\\UserService.csproj",
+      "projectPath": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\UserService.csproj",
       "packagesPath": "C:\\Users\\GOKUL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GOKUL\\source\\repos\\UserService\\obj\\",
+      "outputPath": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

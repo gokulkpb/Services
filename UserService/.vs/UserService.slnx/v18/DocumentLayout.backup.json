@@ -1,66 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\GOKUL\\source\\repos\\UserService\\",
+  "WorkspaceRootPath": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GOKUL\\AppData\\Local\\Temp\\pwjh01id..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\dbcontext1\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:dbcontext1\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\security\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:security\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\source\\repos\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:security\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\dbcontext1\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:dbcontext1\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|c:\\users\\gokul\\desktop\\services\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3B98574C-C3D9-E5A0-8677-20729192D278}|UserService.csproj|solutionrelative:userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GOKUL\\AppData\\Local\\Temp\\pwjh01id..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GOKUL\\AppData\\Local\\Temp\\pwjh01id..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,143 +70,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Middleware\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Middleware\\ExceptionMiddleware.cs*",
-              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwCAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Security\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Security\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Security\\PasswordService.cs",
+              "RelativeToolTip": "Security\\PasswordService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T10:28:01.768Z",
+              "WhenOpened": "2026-03-28T14:58:41.976Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Security\\TokenService.cs",
+              "RelativeDocumentMoniker": "Security\\TokenService.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Security\\TokenService.cs",
+              "RelativeToolTip": "Security\\TokenService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T13:56:51.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\DbContext1\\UserDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\DbContext1\\UserDbContext.cs",
               "RelativeDocumentMoniker": "DbContext1\\UserDbContext.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\DbContext1\\UserDbContext.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\DbContext1\\UserDbContext.cs",
               "RelativeToolTip": "DbContext1\\UserDbContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwBgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T09:44:06.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T09:44:06.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Services\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T17:14:55.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\AppData\\Local\\Temp\\pwjh01id..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\pwjh01id..sql",
-              "ToolTip": "SQLQuery1.sql *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-27T09:56:36.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T15:09:11.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T15:09:11.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAxwB4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T14:26:15.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-27T10:02:15.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\DTOs\\RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\DTOs\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\DTOs\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\DTOs\\RegisterRequest.cs",
               "RelativeToolTip": "DTOs\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T10:00:29.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T10:00:29.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "Models\\Result.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Models\\Result.cs",
+              "RelativeToolTip": "Models\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T18:07:32.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-28T15:57:56.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T09:23:24.604Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-27T09:23:24.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:25:57.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T10:28:01.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T17:25:57.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UserService.csproj",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\UserService.csproj",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\UserService.csproj",
               "RelativeDocumentMoniker": "UserService.csproj",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\UserService.csproj",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\UserService.csproj",
               "RelativeToolTip": "UserService.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -215,42 +247,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\UserService\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-26T15:08:26.169Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Models\\Result.cs",
-              "RelativeDocumentMoniker": "Models\\Result.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\source\\repos\\UserService\\Models\\Result.cs",
-              "RelativeToolTip": "Models\\Result.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T18:07:32.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAAIVAAAAAAAAAAArwBIVAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-03-26T14:48:35.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T15:08:26.169Z"
             }
           ]
         }

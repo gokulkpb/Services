@@ -1,5 +1,5 @@
 ﻿
-
+using Microsoft.EntityFrameworkCore;
 using UserService.DbContext1;
 using UserService.DTOs;
 using UserService.Models;
@@ -9,6 +9,7 @@ namespace UserService.Repositories
     public interface IUserRepository
     {
         Task AddAsync(User user);
+        Task<User> GetUserByEmailAsync(string email);
     }
     public class UserRepository: IUserRepository
     {
@@ -22,6 +23,11 @@ namespace UserService.Repositories
         {
             await _context.Users.AddAsync(user);
             _context.SaveChanges();
+        }
+
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            return await _context.Users.FirstOrDefaultAsync<User>(u => u.Email == email);
         }
     }
 }

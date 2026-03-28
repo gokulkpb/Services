@@ -22,17 +22,24 @@ namespace UserService.Controllers
         }
         
         [HttpPost("register")]
-        public IActionResult Register(RegisterRequest request) 
+        public async Task<IActionResult> Register(RegisterRequest request) 
         {
-            var result = _authService.Register(request);
-            return  Ok(result);
+            var result = await _authService.Register(request);
+            if(result.IsSuccess)
+                return Ok(result.Value);
+            else 
+                return BadRequest(result.Error);
         }
 
        
-        [HttpGet("login")]
-        public IActionResult Login(int id)
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            return Ok("Login Successful");
+            var result = await _authService.Login(request);
+            if (result.IsSuccess)
+                return Ok(result.Value);
+            else
+                return BadRequest(result.Error);
         }
     }
 }

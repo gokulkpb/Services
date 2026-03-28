@@ -8,9 +8,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "request",
+        "Type": "UserService.DTOs.LoginRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
