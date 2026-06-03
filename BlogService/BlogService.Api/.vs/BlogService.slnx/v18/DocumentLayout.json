@@ -42,7 +42,7 @@
               "RelativeDocumentMoniker": "..\\BlogService.Application\\DTOs\\BlogDto.cs",
               "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\BlogDto.cs",
               "RelativeToolTip": "..\\BlogService.Application\\DTOs\\BlogDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-03T20:48:57.657Z",
               "EditorCaption": ""
@@ -69,8 +69,7 @@
               "RelativeToolTip": "..\\BlogService.Domain\\Entities\\Blog.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T20:18:06.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T20:18:06.732Z"
             },
             {
               "$type": "Document",
