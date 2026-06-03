@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/BlogService/">
+    <Project Path="BlogService/BlogService.Api/BlogService.Api.csproj" />
+    <Project Path="BlogService/BlogService.Application/BlogService.Application.csproj" />
+    <Project Path="BlogService/BlogService.Domain/BlogService.Domain.csproj" />
+    <Project Path="BlogService/BlogService.Infrastructure/BlogService.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="UserService/UserService.csproj" />
+</Solution>
