@@ -18,7 +18,7 @@ namespace UserService.Controllers
         private readonly IAuthService _authService;
         public UserController(IAuthService authService)
         {
-            _authService = authService;
+            _authService = authService;  
         }
         
         [HttpPost("register")]

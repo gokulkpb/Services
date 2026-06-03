@@ -35,7 +35,7 @@ namespace UserService.Services
                 Id = Guid.NewGuid(),
                 Name = request.name,
                 Email = request.email,
-                Role = UserRole.Admin
+                Role = UserRole.User
             };
 
             user.PasswordHash = _passwordService.GetPasswordHash(user, request.password);
