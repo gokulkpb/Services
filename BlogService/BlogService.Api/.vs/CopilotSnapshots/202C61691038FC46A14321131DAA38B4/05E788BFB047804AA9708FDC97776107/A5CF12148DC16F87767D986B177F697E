@@ -1,0 +1,137 @@
+﻿
+using Microsoft.EntityFrameworkCore;
+using BlogService.Infrastructure.Data;
+using BlogService.Domain.Entities;
+
+namespace BlogService.Api
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            // Add services to the container.
+            builder.Services.AddControllers();
+            builder.Services.AddOpenApi();
+
+            // Register EF Core DbContext with SQL Server
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            builder.Services.AddDbContext<BlogDbContext>(options =>
+                options.UseSqlServer(connectionString));
+
+            var app = builder.Build();
+
+            // Apply migrations and seed database
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<BlogDbContext>();
+                dbContext.Database.Migrate();
+                SeedDatabase(dbContext);
+            }
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.MapOpenApi();
+            }
+
+            app.UseAuthorization();
+
+            app.MapControllers();
+
+            app.Run();
+        }
+
+        static void SeedDatabase(BlogDbContext context)
+        {
+            // Check if data already exists
+            if (context.Blogs.Any())
+                return;
+
+            // Create sample blogs
+            var blog1 = new Blog
+            {
+                Id = Guid.NewGuid(),
+                Title = "C# Best Practices",
+                UserName = "john_dev",
+                CreatedAt = DateTime.UtcNow
+            };
+
+            var blog2 = new Blog
+            {
+                Id = Guid.NewGuid(),
+                Title = "Web Development Tips",
+                UserName = "jane_coder",
+                CreatedAt = DateTime.UtcNow.AddDays(-5)
+            };
+
+            var blog3 = new Blog
+            {
+                Id = Guid.NewGuid(),
+                Title = "Database Design",
+                UserName = "bob_dba",
+                CreatedAt = DateTime.UtcNow.AddDays(-10)
+            };
+
+            context.Blogs.AddRange(blog1, blog2, blog3);
+            context.SaveChanges();
+
+            // Create sample posts for each blog
+            var posts = new List<Post>
+            {
+                new Post
+                {
+                    Id = Guid.NewGuid(),
+                    Title = "SOLID Principles Explained",
+                    Content = "SOLID principles are five design principles intended to make software designs more understandable, flexible, and maintainable.",
+                    PublishedAt = DateTime.UtcNow,
+                    BlogId = blog1.Id
+                },
+                new Post
+                {
+                    Id = Guid.NewGuid(),
+                    Title = "Async/Await Pattern",
+                    Content = "Understanding async and await keywords for better asynchronous programming in C#.",
+                    PublishedAt = DateTime.UtcNow.AddDays(-2),
+                    BlogId = blog1.Id
+                },
+                new Post
+                {
+                    Id = Guid.NewGuid(),
+                    Title = "React vs Vue",
+                    Content = "Comparing popular JavaScript frameworks for building web applications.",
+                    PublishedAt = DateTime.UtcNow.AddDays(-3),
+                    BlogId = blog2.Id
+                },
+                new Post
+                {
+                    Id = Guid.NewGuid(),
+                    Title = "CSS Grid Mastery",
+                    Content = "Learn how to create responsive layouts using CSS Grid.",
+                    PublishedAt = DateTime.UtcNow.AddDays(-7),
+                    BlogId = blog2.Id
+                },
+                new Post
+                {
+                    Id = Guid.NewGuid(),
+                    Title = "Indexing Strategies",
+                    Content = "Optimize your database queries with proper indexing techniques.",
+                    PublishedAt = DateTime.UtcNow.AddDays(-8),
+                    BlogId = blog3.Id
+                },
+                new Post
+                {
+                    Id = Guid.NewGuid(),
+                    Title = "Normalization vs Denormalization",
+                    Content = "Understanding when to normalize and when to denormalize your database schema.",
+                    PublishedAt = DateTime.UtcNow.AddDays(-12),
+                    BlogId = blog3.Id
+                }
+            };
+
+            context.Posts.AddRange(posts);
+            context.SaveChanges();
+        }
+    }
+}

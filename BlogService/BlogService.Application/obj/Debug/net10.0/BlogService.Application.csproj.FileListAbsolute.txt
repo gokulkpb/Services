@@ -1,0 +1,16 @@
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\bin\Debug\net10.0\BlogService.Application.deps.json
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\bin\Debug\net10.0\BlogService.Application.dll
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\bin\Debug\net10.0\BlogService.Application.pdb
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\bin\Debug\net10.0\BlogService.Domain.dll
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\bin\Debug\net10.0\BlogService.Domain.pdb
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.csproj.AssemblyReference.cache
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.AssemblyInfoInputs.cache
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.AssemblyInfo.cs
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.csproj.CoreCompileInputs.cache
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.sourcelink.json
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogServ.0C819ABA.Up2Date
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.dll
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\refint\BlogService.Application.dll
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\BlogService.Application.pdb
+C:\Users\GOKUL\Desktop\Services\BlogService\BlogService.Application\obj\Debug\net10.0\ref\BlogService.Application.dll

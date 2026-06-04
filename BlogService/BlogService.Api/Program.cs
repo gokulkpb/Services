@@ -1,4 +1,12 @@
 
+using Microsoft.EntityFrameworkCore;
+using BlogService.Infrastructure.Data;
+using Swashbuckle.AspNetCore.SwaggerUI;
+using System.Text.Json.Serialization;
+using AppBlogService = BlogService.Application.Services.BlogService;
+using BlogService.Application.Interfaces;
+using BlogService.Infrastructure.Repositories;
+
 namespace BlogService.Api
 {
     public class Program
@@ -8,21 +16,43 @@ namespace BlogService.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+                });
+            builder.Services.AddSwaggerGen();
 
-            builder.Services.AddControllers();
-            // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
+            // Register EF Core DbContext with SQL Server
+            var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            builder.Services.AddDbContext<BlogDbContext>(options =>
+                options.UseSqlServer(connectionString));
+
+            builder.Services.AddScoped<IBlogService, AppBlogService>();
+            builder.Services.AddScoped<IBlogRepository,BlogRepository>();
+
 
             var app = builder.Build();
+
+            // Apply migrations
+            using (var scope = app.Services.CreateScope())
+            {
+                var dbContext = scope.ServiceProvider.GetRequiredService<BlogDbContext>();
+                dbContext.Database.Migrate();
+            }
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
-                app.MapOpenApi();
+                app.UseSwagger();
+                app.UseSwaggerUI(c =>
+                {
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Blog API v1");
+                    c.RoutePrefix = string.Empty;
+                });
             }
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
