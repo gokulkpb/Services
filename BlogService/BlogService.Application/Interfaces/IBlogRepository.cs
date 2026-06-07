@@ -8,5 +8,7 @@ namespace BlogService.Application.Interfaces
     public interface IBlogRepository
     {
         Task<IEnumerable<Blog>> GetAllBlogsAsync();
+        Task<Blog?> GetBlogByIdAsync(Guid Id);
+        Task<Guid> CreateBlogAsync(Blog blog);
     }
 }

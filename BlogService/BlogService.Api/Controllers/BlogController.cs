@@ -1,4 +1,5 @@
-﻿using BlogService.Application.Services;
+﻿using BlogService.Application.DTOs;
+using BlogService.Application.Services;
 using BlogService.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BlogService.Api.Controllers
 {
-    [Route("api/[controller]")]
+    
     [ApiController]
     public class BlogController : ControllerBase
     {
@@ -17,35 +18,24 @@ namespace BlogService.Api.Controllers
             
         }
         // GET: api/<BlogController>
-        [HttpGet]
-        public async Task<IEnumerable<Blog>> GetAllBlogs()
+        [HttpGet("api/blogs")]
+        public async Task<IEnumerable<BlogDto>> GetAllBlogs()
         {
             return await _blogService.GetAllBlogsAsync();
         }
 
         // GET api/<BlogController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("api/blog/{id}")]
+        public async Task<BlogDto> GetBlogById(Guid id)
         {
-            return "value";
+            return await _blogService.GetBlogByIdAsync(id);
         }
 
-        // POST api/<BlogController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("api/blog")]
+        public async Task<IActionResult> CreateBlog(string title)
         {
-        }
-
-        // PUT api/<BlogController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<BlogController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            var result = await _blogService.CreateBlogAsync(title);
+            return Ok(result);
         }
     }
 }

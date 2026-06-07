@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace BlogService.Application.DTOs
+{
+    public class PostDTO
+    {
+        public Guid Id { get; set; }
+        public string Title { get; set; } = string.Empty;
+        public string Content { get; set; } = string.Empty;
+
+        public DateTime Published { get; set; }
+        public Guid BlogID { get; set; }
+    }
+}

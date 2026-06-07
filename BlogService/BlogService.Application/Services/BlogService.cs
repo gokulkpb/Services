@@ -1,17 +1,16 @@
-﻿using BlogService.Application.Interfaces;
+﻿using BlogService.Application.DTOs;
+using BlogService.Application.Interfaces;
 using BlogService.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace BlogService.Application.Services
 {
     public interface IBlogService
     {
         // Define service methods here, e.g.:
-        // Task<BlogDto> CreateBlogAsync(CreateBlogRequest request);
-        // Task<BlogDto> GetBlogByIdAsync(Guid blogId);
-        Task<IEnumerable<Blog>> GetAllBlogsAsync();
+        Task<Guid> CreateBlogAsync(string title);
+        Task<BlogDto> GetBlogByIdAsync(Guid blogId);
+        Task<IEnumerable<BlogDto>> GetAllBlogsAsync();
         // Task UpdateBlogAsync(Guid blogId, UpdateBlogRequest request);
         // Task DeleteBlogAsync(Guid blogId);
     }
@@ -23,9 +22,61 @@ namespace BlogService.Application.Services
             _blogRepository = blogRepository;
         }
 
-        public async Task<IEnumerable<Blog>> GetAllBlogsAsync()
+        public async Task<IEnumerable<BlogDto>> GetAllBlogsAsync()
         {
-            return await _blogRepository.GetAllBlogsAsync();
+            var blogs = await _blogRepository.GetAllBlogsAsync();
+
+            var blogList = blogs.Select(blog => new BlogDto
+            {
+                Id = blog.Id,
+                Title = blog.Title,
+                UserName = blog.UserName,
+                Created = blog.CreatedAt,
+                Posts = blog.Posts.Select(post => new PostDTO
+                {
+                    Id = post.Id,
+                    Title = post.Title,
+                    Content = post.Content,
+                    Published = post.PublishedAt,
+                }).ToList()
+            }).ToList();
+
+            return blogList;
+
+        }
+
+        public async Task<BlogDto> GetBlogByIdAsync(Guid blogId)
+        {
+            var blog = await _blogRepository.GetBlogByIdAsync(blogId);
+
+            return new BlogDto
+            {
+                Id = blog.Id,
+                Title = blog.Title,
+                Created = blog.CreatedAt,
+                Posts = blog.Posts.Select(post => new PostDTO
+                {
+                    Id = post.Id,
+                    Title = post.Title,
+                    Content = post.Content,
+                    Published = post.PublishedAt,
+                }).ToList(),
+            };
+        }
+
+        public async Task<Guid> CreateBlogAsync(string title)
+        {
+            var blog = new Blog
+            {
+                Id = Guid.NewGuid(),
+                Title = title,
+                CreatedAt = DateTime.Now,
+                UserName = "gokulkpb"
+            };
+
+            var result = await _blogRepository.CreateBlogAsync(blog);
+
+            return result;
         }
 
     }

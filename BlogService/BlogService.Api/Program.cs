@@ -17,11 +17,7 @@ namespace BlogService.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllers()
-                .AddJsonOptions(options =>
-                {
-                    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
-                });
+            builder.Services.AddControllers();
             builder.Services.AddSwaggerGen();
 
             // Register EF Core DbContext with SQL Server
@@ -31,7 +27,18 @@ namespace BlogService.Api
 
             builder.Services.AddScoped<IBlogService, AppBlogService>();
             builder.Services.AddScoped<IBlogRepository,BlogRepository>();
+            builder.Services.AddScoped<IPostRepository, PostRepository>();
+            builder.Services.AddScoped<IPostService, PostService>();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", policy =>
+                {
+                    policy.AllowAnyOrigin()
+                          .AllowAnyMethod()
+                          .AllowAnyHeader();
+                });
+            });
 
             var app = builder.Build();
 
@@ -52,7 +59,7 @@ namespace BlogService.Api
                     c.RoutePrefix = string.Empty;
                 });
             }
-
+            app.UseCors("AllowAll");
             app.UseAuthorization();
 
             app.MapControllers();

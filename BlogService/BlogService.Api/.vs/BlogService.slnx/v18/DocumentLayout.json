@@ -3,18 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.api\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197B5CAA-32F5-2C23-D2EE-7C08864D8432}|..\\BlogService.Infrastructure\\BlogService.Infrastructure.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.infrastructure\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197B5CAA-32F5-2C23-D2EE-7C08864D8432}|..\\BlogService.Infrastructure\\BlogService.Infrastructure.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\interfaces\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197B5CAA-32F5-2C23-D2EE-7C08864D8432}|..\\BlogService.Infrastructure\\BlogService.Infrastructure.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.infrastructure\\data\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.api\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|solutionrelative:controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\dtos\\postrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197B5CAA-32F5-2C23-D2EE-7C08864D8432}|..\\BlogService.Infrastructure\\BlogService.Infrastructure.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.infrastructure\\repositories\\blogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\interfaces\\iblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -28,20 +50,8 @@
       "RelativeMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197B5CAA-32F5-2C23-D2EE-7C08864D8432}|..\\BlogService.Infrastructure\\BlogService.Infrastructure.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.infrastructure\\data\\blogdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{998C07EC-56C7-7B15-9992-9FDD21C091C8}|..\\BlogService.Application\\BlogService.Application.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.application\\dtos\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA42922-81B0-0976-9A2B-1EAF7ACD0E2C}|..\\BlogService.Domain\\BlogService.Domain.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.domain\\entities\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FA42922-81B0-0976-9A2B-1EAF7ACD0E2C}|..\\BlogService.Domain\\BlogService.Domain.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.domain\\entities\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E4C523C3-FA47-44BF-1F2B-114290AEA477}|BlogService.Api.csproj|c:\\users\\gokul\\desktop\\services\\blogservice\\blogservice.api\\blogservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -64,53 +74,112 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\PostDTO.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Application\\DTOs\\PostDTO.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\PostDTO.cs",
+              "RelativeToolTip": "..\\BlogService.Application\\DTOs\\PostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:56:30.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Application\\Services\\PostService.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Services\\PostService.cs",
+              "RelativeToolTip": "..\\BlogService.Application\\Services\\PostService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwCYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:07:17.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Infrastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "..\\BlogService.Infrastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAAAkAAAAAZmZmZmYOwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:08:50.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Services\\BlogService.cs",
               "RelativeDocumentMoniker": "..\\BlogService.Application\\Services\\BlogService.cs",
               "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Services\\BlogService.cs",
               "RelativeToolTip": "..\\BlogService.Application\\Services\\BlogService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAACAmZmZmZkdwA0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T19:48:35.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
-              "RelativeDocumentMoniker": "..\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
-              "RelativeToolTip": "..\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T19:37:44.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBlogRepository.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
-              "RelativeDocumentMoniker": "..\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
-              "RelativeToolTip": "..\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T19:36:08.913Z"
+              "WhenOpened": "2026-06-07T15:10:28.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAAAcAAABgZmZmZmYkwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T15:52:43.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Interfaces\\IPostRepository.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Application\\Interfaces\\IPostRepository.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Interfaces\\IPostRepository.cs",
+              "RelativeToolTip": "..\\BlogService.Application\\Interfaces\\IPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:06:30.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlogDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
+              "RelativeToolTip": "..\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAMjMzMzPjvwkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T18:54:57.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwB8AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAzMzMzMwEwCEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-04T13:35:11.386Z",
               "EditorCaption": ""
@@ -118,6 +187,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "BlogController.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Controllers\\BlogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlogController.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Controllers\\BlogController.cs",
+              "RelativeToolTip": "Controllers\\BlogController.cs",
+              "ViewState": "AgIAABkAAACgzMzMzMwiwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T19:52:52.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\PostRequest.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Application\\DTOs\\PostRequest.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\PostRequest.cs",
+              "RelativeToolTip": "..\\BlogService.Application\\DTOs\\PostRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T15:55:51.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
+              "RelativeToolTip": "..\\BlogService.Infrastructure\\Repositories\\BlogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T19:37:44.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IBlogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
+              "RelativeDocumentMoniker": "..\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
+              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
+              "RelativeToolTip": "..\\BlogService.Application\\Interfaces\\IBlogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T19:36:08.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -125,11 +246,12 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-04T19:09:42.635Z"
+              "WhenOpened": "2026-06-04T19:09:42.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -141,19 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BlogDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
-              "RelativeDocumentMoniker": "..\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
-              "RelativeToolTip": "..\\BlogService.Infrastructure\\Data\\BlogDbContext.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T18:54:57.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -164,36 +274,8 @@
               "WhenOpened": "2026-06-04T19:25:27.541Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BlogController.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "Controllers\\BlogController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T19:52:52.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BlogDto.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\BlogDto.cs",
-              "RelativeDocumentMoniker": "..\\BlogService.Application\\DTOs\\BlogDto.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Application\\DTOs\\BlogDto.cs",
-              "RelativeToolTip": "..\\BlogService.Application\\DTOs\\BlogDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T20:48:57.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "BlogService.Api.csproj",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Api\\BlogService.Api.csproj",
               "RelativeDocumentMoniker": "BlogService.Api.csproj",
@@ -205,19 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Domain\\Entities\\Blog.cs",
-              "RelativeDocumentMoniker": "..\\BlogService.Domain\\Entities\\Blog.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Domain\\Entities\\Blog.cs",
-              "RelativeToolTip": "..\\BlogService.Domain\\Entities\\Blog.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T20:18:06.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\BlogService.Domain\\Class1.cs",
@@ -229,19 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Domain\\Entities\\Post.cs",
-              "RelativeDocumentMoniker": "..\\BlogService.Domain\\Entities\\Post.cs",
-              "ToolTip": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService\\BlogService.Domain\\Entities\\Post.cs",
-              "RelativeToolTip": "..\\BlogService.Domain\\Entities\\Post.cs",
-              "ViewState": "AgIAAAkAAAAwMzMzMzM/wBIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T20:20:25.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService.Infrastructure\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\BlogService.Infrastructure\\Class1.cs",
@@ -253,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\GOKUL\\Desktop\\Services\\BlogService.Application\\Class1.cs",
               "RelativeDocumentMoniker": "..\\..\\BlogService.Application\\Class1.cs",
